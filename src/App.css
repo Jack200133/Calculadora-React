@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.pantalla {
+  width: 50vh;
+  height: 10vh;
+  background-color: aquamarine;
+  border-radius: 20px 20px 0 0;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  width: 50vh;
+  height: 50vh;
+  background-color: #010101;
+}
