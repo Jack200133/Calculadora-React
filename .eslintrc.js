@@ -19,6 +19,7 @@ module.exports = {
   ],
   rules: {
     semi: ['error', 'never'],
+    ignorePatterns: ['.css', '.test.jsx'],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
   },
